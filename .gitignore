@@ -1,0 +1,41 @@
+# =========================
+# FRONTEND (React + Vite)
+# =========================
+node_modules/
+dist/
+build/
+.vite/
+*.log
+*.env
+.env.local
+.env.development
+.env.production
+
+# Ignore editor folders
+.vscode/
+.idea/
+
+# =========================
+# BACKEND (Python)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+ENV/
+.venv/
+*.db-journal
+
+# Uploads folder (contains user files)
+uploads/
+
+# Python logs
+security.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
